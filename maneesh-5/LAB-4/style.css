@@ -1,0 +1,81 @@
+.first p{
+    background-color: red;
+}
+.second > p{
+    background-color: brown;
+}
+.third + p{
+    background-color: cadetblue;
+}
+.fourth ~ p{
+    background-color: coral;
+}
+
+/* unvisited link */
+a:link {
+  color:yellowgreen;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color:white;
+}
+p i:first-child {
+  color: blue;
+} 
+a[target=Maneesh] {
+  background-color: yellow;
+}
+a[target=Reddy] {
+  background-color:darkblue;
+}
+[title~=Cars] {
+  border: 5px solid yellow;
+}
+body
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: green;
+}
+
+.vertical-menu {
+  width: 200px;
+}
+
+ a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+Index a:hover {
+  background-color: #ccc;
+}
+
+Indexa.active {
+  background-color: #4CAF50;
+  color: white;
+}
